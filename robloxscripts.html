@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AntoFortscripts</title>
+
+<header>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Roblox_logo.svg/800px-Roblox_logo.svg.png" alt="Roblox Logo">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins,sans-serif;
+}
+
+body{
+    background:#0b0b0b;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:40px;
+}
+
+header img{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    box-shadow:0 0 30px #00bfff;
+    transition:.3s;
+}
+
+header img:hover{
+    transform:scale(1.05);
+}
+
+h1{
+    margin-top:20px;
+    font-size:42px;
+}
+
+.search{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+}
+
+.search input{
+    width:500px;
+    max-width:90%;
+    padding:15px;
+    border:none;
+    outline:none;
+    border-radius:12px 0 0 12px;
+    font-size:17px;
+}
+
+.search button{
+    border:none;
+    background:#00bfff;
+    color:white;
+    padding:15px 30px;
+    cursor:pointer;
+    border-radius:0 12px 12px 0;
+    font-size:17px;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    margin-top:50px;
+}
+
+/* Aggiunta dello scrolling frame */
+.scrolling-frame {
+    max-height: 650px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.scrolling-frame::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrolling-frame::-webkit-scrollbar-track {
+    background: #181818;
+    border-radius: 10px;
+}
+
+.scrolling-frame::-webkit-scrollbar-thumb {
+    background: #00bfff;
+    border-radius: 10px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#181818;
+    border-radius:15px;
+    padding:25px;
+    transition:.3s;
+    border:1px solid #2d2d2d;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 0 20px #00bfff55;
+}
+
+.card h2{
+    color:#00bfff;
+}
+
+.card p{
+    color:#cfcfcf;
+    margin:15px 0;
+}
+
+.card button{
+    width:100%;
+    padding:12px;
+    background:#00bfff;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+footer{
+    margin-top:80px;
+    text-align:center;
+    color:#888;
+    padding:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<img src="https://tr.rbxcdn.com/180DAY-3d8c9c8f1f0f6f4c1b7c6b7c8b7c8b7c/420/420/Image/Webp/noFilter" alt="Roblox Logo">
+
+<h1>ANTOFORT SCRIPT</h1>
+
+<div class="search">
+<input type="text" id="search" placeholder="search bar...">
+<button>Cerca</button>
+</div>
+
+</header>
+
+
+<div class="container">
+
+<div class="scrolling-frame">
+<div class="cards" id="cards">
+
+
+<div class="card">
+<h2>REM PANNEL</h2>
+<p>Script GLOBAL FOR ALL GAMES📌.</p>
+<!-- Inserisci qui il codice del Rem Panel -->
+<button onclick="copyScript('loadstring(game:HttpGet(&quot;https://pastebin.com/raw/DidddNBY&quot;))()')">Copia</button>
+</div>
+
+
+<div class="card">
+<h2>MM2 GOD PANNEL</h2>
+<p>MM2.</p>
+<!-- Inserisci qui il codice del Dex Explorer -->
+<button onclick="copyScript('loadstring(game:HttpGet(&quot;https://pastebin.com/raw/eJby49PA&quot;))()')">Copia</button>
+</div>
+
+
+<div class="card">
+<h2>Remote Spy</h2>
+<p>Analizza gli eventi remoti.</p>
+<!-- Inserisci qui il codice del Remote Spy -->
+<button onclick="copyScript('IL_TUO_CODICE_REMOTE_SPY_QUI')">Copia</button>
+</div>
+
+
+<div class="card">
+<h2>Simple ESP</h2>
+<p>Esempio di script globale.</p>
+<!-- Inserisci qui il codice del Simple ESP -->
+<button onclick="copyScript('IL_TUO_CODICE_SIMPLE_ESP_QUI')">Copia</button>
+</div>
+
+
+<div class="card">
+<h2>Slot Scorta 1</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('DIOMERDA')">Copia</button>
+</div>
+
+<!-- Slot Scorta Aggiuntivi (da 2 a 21) -->
+<div class="card">
+<h2>Slot Scorta 2</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 3</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 4</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 5</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 6</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 7</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 8</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 9</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 10</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 11</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 12</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 13</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia]></button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 14</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 15</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 16</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 17</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 18</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 19</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 20</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+<div class="card">
+<h2>Slot Scorta 21</h2>
+<p>Spazio disponibile per uno script futuro.</p>
+<button onclick="copyScript('INSERISCI_CODICE_QUI')">Copia</button>
+</div>
+
+
+</div>
+</div>
+
+</div>
+
+
+<footer>
+©️ 2026 Script Globali
+</footer>
+
+
+<script>
+
+const search = document.getElementById("search");
+const cards = document.querySelectorAll(".card");
+
+search.addEventListener("keyup", function(){
+
+let value = this.value.toLowerCase();
+
+cards.forEach(card=>{
+
+let title = card.querySelector("h2").textContent.toLowerCase();
+
+card.style.display = title.includes(value) ? "block" : "none";
+
+});
+
+});
+
+
+function copyScript(text){
+navigator.clipboard.writeText(text).then(() => {
+    alert("Script copiato negli appunti!");
+}).catch(err => {
+    console.error("Errore durante la copia: ", err);
+});
+}
+
+</script>
+
+</body>
+</html>
